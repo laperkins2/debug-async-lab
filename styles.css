@@ -1,0 +1,6 @@
+/* Simple CSS to keep focus on debugging JavaScript */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
