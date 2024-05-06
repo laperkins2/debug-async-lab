@@ -14,7 +14,7 @@ function displayUser(user) {
                            Email: ${user.email}`;
 }
 
-// Question 4: Why does this API call fail?##Problem between browser and website server
+// Question 4: Why does this API call fail?##Problem between browser and website server it gives a status code of 304
 fetch('https://api.example.com/data')
   .then((response) => response.json())
   .catch((error) => {
